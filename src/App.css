@@ -8,8 +8,12 @@ body{
   margin-top: 450px;
 }
 
+.loading p {
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 321px) and (max-width: 600px){
   .loading {
-    margin-top: 340px;
+    margin-top: 300px;
   }
 }

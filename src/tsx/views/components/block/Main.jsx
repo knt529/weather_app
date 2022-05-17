@@ -40,7 +40,7 @@ function Main() {
       ): (
         <div className="loading">
           <h1>Weather App</h1>
-          <div>loading...</div>
+          <p>loading...</p>
         </div>
       )}
     </div>

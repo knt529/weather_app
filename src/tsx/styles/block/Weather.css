@@ -75,9 +75,10 @@
 
 @media screen and (min-width: 321px) and (max-width: 600px){
   .weather {
-    width: 270px;
+    width: 290px;
     top:  7.7rem; 
     padding: 0;
+    margin: 20px 40px;
   }
 
   .now {
@@ -106,6 +107,7 @@
   .icon img{
     width: 150px;
     margin-top: 30px;
+    margin-left: 10px;
   }
   
   .temp {
