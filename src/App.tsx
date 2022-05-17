@@ -1,13 +1,13 @@
 import './App.css';
-import Main from './tsx/views/Main';
-import Main2 from './tsx/views/Main2';
+import Header from './tsx/views/components/block/Header';
+import Main from './tsx/views/components/block/Main';
+
+
 
 function App() {
-  
   return (
-    <div className="App">
+    <div className="App" > 
      <Main/>
-     <Main2/>
     </div>
   );
 }
