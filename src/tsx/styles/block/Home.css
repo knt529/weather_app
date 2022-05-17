@@ -1,0 +1,25 @@
+.home {
+  position: relative;
+}
+
+.home img{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height:100vh
+}
+
+.res_image {
+  display: none;
+}
+
+@media screen and (min-width: 321px) and (max-width: 600px){
+  .main_image{
+    display: none;
+  }
+  
+  .res_image {
+    display: block;
+  }
+}
