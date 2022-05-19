@@ -49,7 +49,7 @@ function Weather({weatherData}) {
 
       <div className="detail">
         <p className="hum">湿度： {weatherData.main.humidity} %</p>
-        <p>風速：{wind}m/秒</p>
+        <p>風速： {wind}m/秒</p>
         <p>気圧： {press}hPa</p>
       </div>
 
